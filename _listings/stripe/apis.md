@@ -9,11 +9,26 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe
 x-kinRank: "10"
 x-alexaRank: "1914"
 tags: Cancel
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/cancel/master/_listings/stripe/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Stripe - Add Payouts Payout Cancel
+  x-api-slug: payoutspayoutcancel-post
+  description: A previously created payout can be canceled if it has not yet been
+    paid out. Funds will be refunded to your available balance, and the fees you were
+    originally charged on the payout will be refunded. You may not cancel automatic
+    Stripe payouts.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cancel/master/_listings/stripe/payoutspayoutcancel-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://stride.api.gallery.streamdata.io

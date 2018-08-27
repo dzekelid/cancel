@@ -12,11 +12,37 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-deve
 x-kinRank: "7"
 x-alexaRank: "7180"
 tags: Cancel
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/cancel/master/_listings/ringcentral/apis.md
 specificationVersion: "0.14"
 apis:
+- name: RingCentral Connect Platform API Explorer - Cancel RingOut Call
+  x-api-slug: restapiv1-0accountaccountidextensionextensionidringoutringoutid-delete
+  description: "Cancels a 2-leg RingOut call.\nApp Permission\nRingOut\nUsage Plan
+    Group\nHeavy\nError Codes\n\n \n  \n   HTTP Code\n   Error Code\n   Error Message\n
+    \  \n \n\n404\nCMN-102\nResource for parameter [ringOutId] is not found"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cancel/master/_listings/ringcentral/restapiv1-0accountaccountidextensionextensionidringoutringoutid-delete-openapi.md
+- name: RingCentral Connect Platform API Explorer - Cancel RingOut Call
+  x-api-slug: restapiv1-0accountaccountidextensionextensionidringoutringoutid-delete
+  description: "Cancels a 2-leg RingOut call.\nApp Permission\nRingOut\nUsage Plan
+    Group\nHeavy\nError Codes\n\n \n  \n   HTTP Code\n   Error Code\n   Error Message\n
+    \  \n \n\n404\nCMN-102\nResource for parameter [extensionId] is not found"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cancel/master/_listings/ringcentral/restapiv1-0accountaccountidextensionextensionidringoutringoutid-delete-openapi.md
 - name: RingCentral Connect Platform API Explorer - Cancel Subscription
   x-api-slug: restapiv1-0subscriptionsubscriptionid-delete
   description: "Cancels the existent subscription.\nUsage Plan Group\nMedium\nError

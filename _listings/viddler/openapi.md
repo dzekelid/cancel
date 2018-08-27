@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Viddler
 x-complete: 1
@@ -76,4 +75,3 @@ paths:
       - Viddler
       - Encoding
       - Cancel
----

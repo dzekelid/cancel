@@ -12,11 +12,24 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Cancel
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/cancel/master/_listings/onsched/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: OnSched API - Returns an appointment object
+  x-api-slug: consumerv1appointmentsidcancel-put
+  description: "This end point cancels a booking or reservation. Only appointments
+    in a \"BK\" booked, or \"RS\" reserved status can be cancelled.\r\nPast dated
+    appointments cannot be cancelled.\r\n\r\nA valid appointment id is required. Use
+    the appointmentId returned from POST /consumer/v1/appointments"
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/onsched-logo.png
+  humanURL: http://www.onsched.com
+  baseURL: https://api.onsched.com//
+  tags: API Provider, Bookings, Profiles, Schedules, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cancel/master/_listings/onsched/consumerv1appointmentsidcancel-put-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://onenote.api.gallery.streamdata.io

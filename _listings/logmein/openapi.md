@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: LogMeIn
 x-complete: 1
@@ -15,6 +14,29 @@ produces:
 consumes:
 - application/json
 paths:
+  /organizers/{organizerKey}/trainings/{trainingKey}/registrants/{registrantKey}:
+    delete:
+      summary: Cancel Registration
+      description: Cancel registration.
+      operationId: OrganizersTrainingsRegistrantsRegistrantKeyByOrganizerKeyAndTrainingKeyDelete
+      x-api-path-slug: organizersorganizerkeytrainingstrainingkeyregistrantsregistrantkey-delete
+      parameters:
+      - in: header
+        name: Accept
+      - in: header
+        name: Content-Type
+      - in: path
+        name: organizerKey
+      - in: path
+        name: registrantKey
+      - in: path
+        name: trainingKey
+      responses:
+        200:
+          description: OK
+      tags:
+      - Cancel
+      - Registration
   /{organizerKey}/webinars/{webinarKey}:
     delete:
       summary: Cancel Webinar
@@ -42,4 +64,3 @@ paths:
       tags:
       - Cancel
       - Webinar
----

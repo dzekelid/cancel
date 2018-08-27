@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-
 x-kinRank: "7"
 x-alexaRank: "7271"
 tags: Cancel
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/cancel/master/_listings/logmein/apis.md
 specificationVersion: "0.14"
 apis:
@@ -26,6 +26,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/cancel/master/_listings/logmein/organizersorganizerkeytrainingstrainingkeyregistrantsregistrantkey-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/cancel/master/_listings/logmein/organizersorganizerkeytrainingstrainingkeyregistrantsregistrantkey-delete-openapi.md
+- name: GoToWebinar API - Cancel Webinar
+  x-api-slug: organizerkeywebinarswebinarkey-delete
+  description: Cancel webinar.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg
+  humanURL: http://www.LogMeInInc.com
+  baseURL: https://api.getgo.com//G2W/rest/organizers
+  tags: SaaS, Technology, Enterprise, Voice, Videoconferencing, Audio, Webinars, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cancel/master/_listings/logmein/organizerkeywebinarswebinarkey-delete-openapi.md
 x-common:
 - type: x-github
   url: https://github.com/logmein

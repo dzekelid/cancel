@@ -8,11 +8,21 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "37688"
 tags: Cancel
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/cancel/master/_listings/tradestation/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Tradestation API - Cancel Order
+  x-api-slug: ordersorder-id-delete
+  description: Cancels an open order. You cannot cancel an order that has been filled.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tradestation_logo_285x40.png
+  humanURL: http://www.tradestation.com
+  baseURL: https://api.tradestation.com//v2
+  tags: Technology, Financial Services, Financial, General Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cancel/master/_listings/tradestation/ordersorder-id-delete-openapi.md
 x-common:
 - type: x-website
   url: http://www.tradestation.com

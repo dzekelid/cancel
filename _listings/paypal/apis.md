@@ -7,11 +7,25 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal
 x-kinRank: "10"
 x-alexaRank: "71"
 tags: Cancel
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/cancel/master/_listings/paypal/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: PayPal (Sandbox) - Cancel Preapproval
+  x-api-slug: adaptivepaymentscancelpreapproval-post
+  description: Use the CancelPreapproval API operation to handle the canceling of
+    preapprovals. Preapprovals can be canceled regardless of the state they are in,
+    such as active, expired, deactivated, and previously canceled.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
+  humanURL: https://paypal.com
+  baseURL: https://svcs.sandbox.paypal.com//
+  tags: International, Payments, Billing, Merchant, Indie EdTech Data Jam, Getting
+    Started Example, Stack Network, Stack, Hypermedia API, Financial Services, Technology,
+    Mobile, SaaS, internet, Invoices, Payments, Payments, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cancel/master/_listings/paypal/adaptivepaymentscancelpreapproval-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://paylocity.api.gallery.streamdata.io

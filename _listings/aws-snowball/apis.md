@@ -24,11 +24,35 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Cancel
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/cancel/master/_listings/aws-snowball/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Snowball API - Cancel Cluster
+  x-api-slug: actioncancelcluster-get
+  description: Cancels a cluster job.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSImportExportSnowball.png
+  humanURL: https://aws.amazon.com/snowball/
+  baseURL: :///
+  tags: Amazon Web Services, Data, Security, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cancel/master/_listings/aws-snowball/actioncancelcluster-get-openapi.md
+- name: AWS Snowball API - Cancel Job
+  x-api-slug: actioncanceljob-get
+  description: Cancels the specified job.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSImportExportSnowball.png
+  humanURL: https://aws.amazon.com/snowball/
+  baseURL: :///
+  tags: Amazon Web Services, Data, Security, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cancel/master/_listings/aws-snowball/actioncanceljob-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.simple.queue.service.api.gallery.streamdata.io

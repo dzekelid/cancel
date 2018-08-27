@@ -14,11 +14,23 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Cancel
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/cancel/master/_listings/aws-batch/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Batch API - Cancel Job
+  x-api-slug: actioncanceljob-get
+  description: Cancels jobs in an AWS Batch job queue.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-batch.jpg
+  humanURL: https://aws.amazon.com/batch/
+  baseURL: :///
+  tags: Amazon Web Services, Jobs, Science, Research, Data, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cancel/master/_listings/aws-batch/actioncanceljob-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.auto.scaling.api.gallery.streamdata.io

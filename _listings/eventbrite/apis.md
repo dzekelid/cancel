@@ -7,11 +7,25 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventb
 x-kinRank: "9"
 x-alexaRank: "643"
 tags: Cancel
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/cancel/master/_listings/eventbrite/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Eventbrite - Post Events Cancel
+  x-api-slug: eventsidcancel-post
+  description: |-
+    Cancels an event if it has not already been deleted. In order for cancel to be permitted, there must be no pending or
+    completed orders. Returns a boolean indicating success or failure of the cancel.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg
+  humanURL: http://eventbriteapi.com
+  baseURL: https://www.eventbrite.com//%7Bdata-type%7D/
+  tags: Events, Tickets, Events, My API Stack, API LIfeyclessss, Stack Network, Stack,
+    Marketplace, Technology, Mobile, internet, API Provider, Tickets, Profiles, Registrations,
+    General Data, Relative Data, Pedestal, Historical Data API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cancel/master/_listings/eventbrite/eventsidcancel-post-openapi.md
 - name: Eventbrite - Post Series Cancel
   x-api-slug: seriesidcancel-post
   description: |-
